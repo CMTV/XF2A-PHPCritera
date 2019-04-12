@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class_extensions>
+  <extension from_class="XF\Admin\Controller\Trophy" to_class="PHPCriteria\XF\Admin\Controller\Trophy" execute_order="10" active="1"/>
+  <extension from_class="XF\Admin\Controller\UserGroupPromotion" to_class="PHPCriteria\XF\Admin\Controller\UserGroupPromotion" execute_order="10" active="1"/>
+  <extension from_class="XF\Criteria\User" to_class="PHPCriteria\XF\Criteria\User" execute_order="10" active="1"/>
+</class_extensions>

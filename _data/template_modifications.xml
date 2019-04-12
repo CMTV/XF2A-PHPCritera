@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="admin" template="helper_criteria" modification_key="phpcriteria_helper_criteria_tab" description="Adding PHP callback criteria tab" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<a class="tabs-tab{{ $active == 'user_field' ? ' is-active' : '' }}"
+			role="tab" tabindex="0" aria-controls="{{ unique_id('criteriaUserField') }}">
+			{{ phrase('custom_userfield_criteria') }}</a>]]></find>
+    <replace><![CDATA[$0
+
+<a class="tabs-tab{{ $active == 'phpcriteria' ? ' is-active' : '' }}"
+   role="tab" tabindex="0" aria-controls="{{ unique_id('phpcriteria') }}">
+	{{ phrase('php_callback') }}</a>]]></replace>
+  </modification>
+  <modification type="admin" template="helper_criteria" modification_key="phpcriteria_helper_criteria_pane" description="Adding PHP callback criteria pane" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:else />
+				{{ phrase('no_custom_fields_have_been_created_yet') }}
+			</xf:if>
+		</li>]]></find>
+    <replace><![CDATA[$0
+
+<li class="{{ $active == 'phpcriteria' ? ' is-active' : '' }}" role="tabpanel" id="{{ unique_id('phpcriteria') }}">
+	<xf:checkboxrow label="{{ phrase('php_callback') }}">
+		<xf:option name="user_criteria[php_callback][rule]"
+				value="php_callback"
+				selected="{$criteria.php_callback}"
+				label="{{ phrase('phpcriteria_use_php_callback_criteria') }}">
+			<xf:macro template="helper_callback_fields" name="callback_fields"
+					  arg-label="{{ phrase('php_callback') }}"
+					  arg-explain="{{ phrase('widget_def_options_php_callback_explain') }}"
+					  arg-className="user_criteria[php_callback][data][callback_class]"
+					  arg-classValue="{$criteria.php_callback.callback_class}"
+					  arg-methodName="user_criteria[php_callback][data][callback_method]"
+					  arg-methodValue="{$criteria.php_callback.callback_method}" />
+			<xf:afterhint>{{ phrase('phpcriteria_php_callback_explain') }}</xf:afterhint>
+		</xf:option>
+	</xf:checkboxrow>
+</li>]]></replace>
+  </modification>
+</template_modifications>

@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "PHP Criteria",
+    "description": "Power up trophy/promotion system with custom PHP criteria!",
+    "version_id": 100070,
+    "version_string": "1.0.0",
+    "dev": "CMTV",
+    "dev_url": "https://xenforo.com/community/resources/authors/cmtv.162075/",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": "icon.png"
+}

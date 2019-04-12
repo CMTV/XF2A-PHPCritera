@@ -1,0 +1,14 @@
+{
+    "src/addons/PHPCriteria.examples.php": "6c80da51a0ab2f53fecd1228a2bc297a84f0be003148d60b17a0e41c88be846b",
+    "src/addons/PHPCriteria.php": "4f95acc9acbce1a9627e22925a8e5b3504f6e0d27b49069c4a9dfd13931a53f2",
+    "src/addons/PHPCriteria/addon.json": "6f34c622fff8f0ddac31e2c74494311843bad106e42d445477281477834c4f40",
+    "src/addons/PHPCriteria/icon.png": "fb7aacc5d0a95403da896d050b38b0c23954539af1691763a6c6754d12c05283",
+    "src/addons/PHPCriteria/LICENSE.md": "66d5a40e7fd8043c18d5877d7ccbd3f466b1900099eeeb4931dd7441d19cd69c",
+    "src/addons/PHPCriteria/README.md": "51c07e08d50101319463c63905b173127b7c7f7e6195f0d99c512006a3af988a",
+    "src/addons/PHPCriteria/XF/Admin/Controller/Trophy.php": "77c040edcac70c1185763d0d859c03d53649146b39230096cbdec625c07c4131",
+    "src/addons/PHPCriteria/XF/Admin/Controller/UserGroupPromotion.php": "88052bc4947f8716f51a74d5d19751a07dd47e02ec96dd7ca08c73255aa17265",
+    "src/addons/PHPCriteria/XF/Criteria/User.php": "64172a605ad1f0e926845b5ca56dc9db67148c17396073eb08f881782b5e6f85",
+    "src/addons/PHPCriteria/_data/class_extensions.xml": "503e96ff9e10127834738d3146cd6212483dddb83c037996058eff4a502bf674",
+    "src/addons/PHPCriteria/_data/phrases.xml": "d9777f576a27838eb881d91debc390fcf0c78bf651acd1857bf1107e70380caa",
+    "src/addons/PHPCriteria/_data/template_modifications.xml": "322b96772881bc6f3167b94e32bc9ae773bfb5018adeba77960925243a5ffa91"
+}
